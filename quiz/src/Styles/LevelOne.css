@@ -1,0 +1,53 @@
+
+.questionDiv{
+    border: solid;
+    border-color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 1vw 1vw;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    margin: 4vw 4vw 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.allAnswerOptions{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+}
+.allAnswerOptions div{
+    margin-left: 1vw;
+}
+.answerOptions{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 2.4vw;
+    padding: 5vw 8vw;
+    border-radius: 20px;
+    background-color: #c59613;
+    color: black;
+    border: solid;
+    border-color: #1d1c1c;
+    width: 40vw;
+    height: 15vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    -moz-osx-font-smoothing: grayscale;
+}
+.answerOptions:hover{
+    background-color: #97720a;
+    border: solid;
+    border-color: rgb(201, 196, 196);
+    cursor: pointer;
+}
+.bottomRow{
+    margin-top: 2vw;
+}
+
+
+
+

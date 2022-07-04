@@ -1,0 +1,171 @@
+body{
+  background: linear-gradient(-45deg, black, rgb(43, 42, 42), #344e57, #1e3f37);
+	background-size: 400% 400%;
+	animation: gradient 25s ease infinite;
+	height: 100vh;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.content-statseite{
+  margin-left: 25vw;
+  margin-right: 25vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  position: relative;
+  padding-top: 8vw;
+}
+.content-statseite h1{
+  font-size: 15vw;
+  color: #b16ec4;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1vw;
+  margin-top: 2vw;
+  border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(
+    60deg,
+    #b16ec4,
+    #5f97b9
+  );
+  position: absolute;
+}
+.content-statseite button{
+  border: 5px solid ;
+  font-size: 3vw;
+  border-color: #b16ec4;
+  background-color: purple;
+  padding: 0.5vw;
+  border-radius: 0 0 30px 30px;
+  position: relative;
+  margin: 20.65vw 9vw;
+}
+
+.background{
+  background-color: yellow;
+  font-size: 20vw;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: rgb(114, 31, 31);
+}
+.content-statseite button a{
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.4s;
+  transition: color 0.4s;
+}
+.content-statseite button a:hover{
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+@media (hover: none){
+  .content-statseite{
+    margin-left: 17vw;
+    margin-right: 25vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    position: relative;
+    padding-top: 70%;
+  }
+  .content-statseite h1{
+    font-size: 25vw;
+    color: purple;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
+    border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(
+    60deg,
+    #b16ec4,
+    #5f97b9
+  );
+    position: absolute;
+  }
+  .content-statseite button{
+    font-size: 10vw;
+    border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(
+    60deg,
+    #b16ec4,
+    #5f97b9
+  );
+    background-color: purple;
+    padding: 0.5vw;
+    border-radius: 0 0 30% 30%;
+    position: relative;
+    margin: 34vw 8vw;
+  }
+}
+
+
+
+
+
+@media (max-width: 500px){
+  .content-statseite{
+    margin-left: 17vw;
+    margin-right: 25vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    position: relative;
+    padding-top: 70%;
+  }
+  .content-statseite h1{
+    font-size: 25vw;
+    color: purple;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
+    border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(
+    60deg,
+    #b16ec4,
+    #5f97b9
+  );
+    position: absolute;
+  }
+  .content-statseite button{
+    border: solid ;
+    font-size: 10vw;
+    border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(
+    60deg,
+    #b16ec4,
+    #5f97b9
+  );
+    background-color: purple;
+    padding: 0.5vw;
+    border-radius: 0 0 30% 30%;
+    position: relative;
+    margin: 34vw 8vw;
+  }
+}
+
+
+
