@@ -1,3 +1,3 @@
 # Quiz
 
-his is just a little common knowledge quiz.
+This is just a little common knowledge quiz.
