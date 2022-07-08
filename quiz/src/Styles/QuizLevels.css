@@ -1,0 +1,262 @@
+
+.questionDiv{
+    border: solid;
+    border-color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 1vw 1vw;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin: 4vw 4vw 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.allAnswerOptions{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 25vw;
+    
+}
+.allAnswerOptions button{
+    margin-left: 1vw;
+}
+.answerOptions{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 2vw;
+    padding: 2.5vw 4vw 4vw 3vw;
+    border-radius: 20px;
+    background-color: #c59613;
+    color: black;
+    border: solid;
+    border-color: #1d1c1c;
+    width: 40vw;
+    height: 8vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    -moz-osx-font-smoothing: grayscale;
+    box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.answerOptions:hover{
+    background-color: #97720a;
+    border: solid;
+    border-color: rgb(201, 196, 196);
+    cursor: pointer;
+}
+.bottomRow{
+    margin-top: 2vw;
+}
+.display-score{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 117, 49);
+    font-size: 10vw;
+    margin-left: 8vw;
+    margin-top: 10vw;
+}
+.display-rows{
+    color: white;
+    position: absolute;
+    margin-left: 82vw;
+    font-size: 4vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -5vw;
+}
+.score-section{
+    border: solid;
+    border-color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 15vw 1vw;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    margin: 8vw 4vw 4vw;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+@media (hover: none){
+    .questionDiv{
+        border: solid;
+        border-color: white;
+        background-color: orange;
+        border-radius: 20px;
+        padding: 1vw 1vw;
+        font-size: 6vw;
+        display: flex;
+        justify-content: center;
+        margin: 4vw 4vw 4vw;
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    .allAnswerOptions{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 1vw;
+        margin-right: 3vw;
+        margin-top: 60vw;
+        
+    }
+    .allAnswerOptions button{
+        margin-left: 1vw;
+    }
+    .answerOptions{
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 5vw;
+        padding: 2.5vw 4vw 4vw 3vw;
+        border-radius: 20px;
+        background-color: #c59613;
+        color: black;
+        border: solid;
+        border-color: #1d1c1c;
+        width: 100%;
+        height: 14vw;
+        word-wrap: break-word;
+        word-break: break-all;
+        -moz-osx-font-smoothing: grayscale;
+        box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
+    .answerOptions:hover{
+        background-color: #97720a;
+        border: solid;
+        border-color: rgb(201, 196, 196);
+        cursor: pointer;
+    }
+    .bottomRow{
+        margin-top: 2vw;
+    }
+    .display-score{
+        position: absolute;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(49, 117, 49);
+        font-size: 10vw;
+        margin-left: 8vw;
+        margin-top: 10vw;
+    }
+    .display-rows{
+        color: white;
+        position: absolute;
+        margin-left: 82vw;
+        font-size: 4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: -60vw;
+    }
+    .score-section{
+        border: solid;
+        border-color: white;
+        background-color: orange;
+        border-radius: 20px;
+        padding: 15vw 1vw;
+        font-size: 5vw;
+        display: flex;
+        justify-content: center;
+        margin: 70vw 4vw 4vw;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+@media (max-width: 656px) {
+    .questionDiv{
+        border: solid;
+        border-color: white;
+        background-color: orange;
+        border-radius: 20px;
+        padding: 1vw 1vw;
+        font-size: 6vw;
+        display: flex;
+        justify-content: center;
+        margin: 4vw 4vw 4vw;
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    .allAnswerOptions{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 1vw;
+        margin-right: 3vw;
+        margin-top: 60vw;
+        
+    }
+    .allAnswerOptions button{
+        margin-left: 1vw;
+    }
+    .answerOptions{
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 5vw;
+        padding: 2.5vw 4vw 4vw 3vw;
+        border-radius: 20px;
+        background-color: #c59613;
+        color: black;
+        border: solid;
+        border-color: #1d1c1c;
+        width: 100%;
+        height: 14vw;
+        word-wrap: break-word;
+        word-break: break-all;
+        -moz-osx-font-smoothing: grayscale;
+        box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
+    .answerOptions:hover{
+        background-color: #97720a;
+        border: solid;
+        border-color: rgb(201, 196, 196);
+        cursor: pointer;
+    }
+    .bottomRow{
+        margin-top: 2vw;
+    }
+    .display-score{
+        position: absolute;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(49, 117, 49);
+        font-size: 10vw;
+        margin-left: 8vw;
+        margin-top: 10vw;
+    }
+    .display-rows{
+        color: white;
+        position: absolute;
+        margin-left: 82vw;
+        font-size: 4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: -60vw;
+    }
+    .score-section{
+        border: solid;
+        border-color: white;
+        background-color: orange;
+        border-radius: 20px;
+        padding: 15vw 1vw;
+        font-size: 5vw;
+        display: flex;
+        justify-content: center;
+        margin: 70vw 4vw 4vw;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 4px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LevelOne from './LevelOne';
+import LevelOne from './QuizLevels';
 import Quiz from './Quiz';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         
         <Routes>
             <Route path='/' element={<Quiz />}/>
-            <Route path='/Level1' element={<LevelOne />}/>
+            <Route path='/InGame' element={<LevelOne />}/>
         </Routes>
     </Router>
     );

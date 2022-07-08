@@ -1,11 +1,12 @@
 body{
-  background: linear-gradient(-45deg, black, rgb(43, 42, 42), #344e57, #1e3f37);
+  background: linear-gradient(-45deg, black, rgb(43, 42, 42), #2b3f46, #14352c);
 	background-size: 400% 400%;
 	animation: gradient 25s ease infinite;
 	height: 100vh;
   margin: 0;
   width: 100%;
   height: 100%;
+
 }
 @keyframes gradient {
 	0% {
@@ -44,14 +45,16 @@ body{
   position: absolute;
 }
 .content-statseite button{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: 5px solid ;
   font-size: 3vw;
   border-color: #b16ec4;
   background-color: purple;
   padding: 0.5vw;
-  border-radius: 0 0 30px 30px;
+  border-radius: 18px;
   position: relative;
-  margin: 20.65vw 9vw;
+  margin-top: 26vw;
+  margin-left: 8vw;
 }
 
 .background{
@@ -76,7 +79,7 @@ body{
 
 
 
-@media (hover: none){
+ @media (hover: none){
   .content-statseite{
     margin-left: 17vw;
     margin-right: 25vw;
@@ -104,26 +107,20 @@ body{
   .content-statseite button{
     font-size: 10vw;
     border: solid;
-  border-image-slice: 1;
-  border-width: 5px;
-  border-image-source: linear-gradient(
-    60deg,
-    #b16ec4,
-    #5f97b9
-  );
+    border-image-slice: 1;
+    border-width: 5px;
+    border-color: #b16ec4;
     background-color: purple;
     padding: 0.5vw;
-    border-radius: 0 0 30% 30%;
+    border-radius: 30px;
     position: relative;
-    margin: 34vw 8vw;
+    margin: 37vw 8vw;
   }
 }
 
 
 
-
-
-@media (max-width: 500px){
+@media (max-width: 830px){
   .content-statseite{
     margin-left: 17vw;
     margin-right: 25vw;
@@ -154,11 +151,7 @@ body{
     border: solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: linear-gradient(
-    60deg,
-    #b16ec4,
-    #5f97b9
-  );
+  border-color: #b16ec4;
     background-color: purple;
     padding: 0.5vw;
     border-radius: 0 0 30% 30%;

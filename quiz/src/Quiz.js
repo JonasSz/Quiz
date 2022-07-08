@@ -11,7 +11,7 @@ function Quiz() {
     <div>
       <div className='content-statseite'>
         <h1>Quiz</h1>
-        <button ><a href='/Level1'>Spielen</a></button>
+        <button ><a href='/InGame'>Spielen</a></button>
       </div>   
       
       
